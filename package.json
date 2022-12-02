@@ -32,6 +32,28 @@
     "type": "git",
     "url": "https://github.com/mswjs/interceptors"
   },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./lib/index.mjs",
+      "types": "./lib/index.d.ts"
+    },
+    "./lib/interceptors/ClientRequest": {
+      "require": "./lib/interceptors/ClientRequest/index.js",
+      "import": "./lib/interceptors/ClientRequest/index.mjs",
+      "types": "./lib/interceptors/ClientRequest/index.d.ts"
+    },
+    "./lib/interceptors/fetch": {
+      "require": "./lib/interceptors/fetch/index.js",
+      "import": "./lib/interceptors/fetch/index.mjs",
+      "types": "./lib/interceptors/fetch/index.d.ts"
+    },
+    "./lib/interceptors/XMLHttpRequest": {
+      "require": "./lib/interceptors/XMLHttpRequest/index.js",
+      "import": "./lib/interceptors/XMLHttpRequest/index.mjs",
+      "types": "./lib/interceptors/XMLHttpRequest/index.d.ts"
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
