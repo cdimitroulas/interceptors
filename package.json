@@ -79,7 +79,6 @@
     "express-rate-limit": "^6.3.0",
     "follow-redirects": "^1.15.1",
     "got": "^11.8.3",
-    "headers-polyfill": "^3.1.0",
     "jest": "^27.4.3",
     "node-fetch": "2.6.7",
     "page-with": "^0.5.1",
@@ -97,6 +96,7 @@
     "@open-draft/until": "^1.0.3",
     "@types/debug": "^4.1.7",
     "debug": "^4.3.3",
+    "headers-polyfill": "^3.1.0",
     "outvariant": "^1.2.1",
     "strict-event-emitter": "^0.2.4"
   },
